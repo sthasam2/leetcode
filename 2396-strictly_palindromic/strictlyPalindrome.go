@@ -1,4 +1,4 @@
-package main
+package strictlyPalindromic
 
 import (
 	"fmt"
@@ -89,5 +89,7 @@ func isStrictlyPalindromic(n int) bool {
 ///////////////////////
 
 func main() {
-	fmt.Println(isStrictlyPalindromic(11))
+	input := 11
+	fmt.Println("Input:\t", input)
+	fmt.Println("Is Strictly Palindromic?: ", isStrictlyPalindromic(11))
 }

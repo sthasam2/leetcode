@@ -1,4 +1,4 @@
-package main
+package twoSum
 
 import "fmt"
 
@@ -65,6 +65,8 @@ func twoSum(nums []int, target int) []int {
 ///////////////////////
 
 func main() {
-	result := twoSum([]int{2, 7, 11, 15}, 9)
-	fmt.Println(result)
+	input := []int{2, 7, 11, 15}
+	sum := 13
+	result := twoSum(input, sum)
+	fmt.Printf("Input:\t%d\nSum:\t%d\nResult:\t%d\n", input, sum, result)
 }
